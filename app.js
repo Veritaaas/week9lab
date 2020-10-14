@@ -57,6 +57,6 @@ app.get('/actors/actorBymovieYear/:year',actorRoute.getActFromMovie);
 app.get('/movies/movieByActname/:name',movieRoute.movNameInAct);
 
 
-//Week 9 
+//Week 9 lab
 app.delete('/movies/delBeforeYear/:delYear',movieRoute.delBeforeYear);
 app.put('/movies/addActToMov/:name/:title',movieRoute.addAct)
